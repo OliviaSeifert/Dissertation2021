@@ -456,7 +456,7 @@ binom.test(x=obs, n=length(na.omit(castes30plus_new_caste1_1_caste2_1$caste2_1))
 
 
 
-#make map of cities in to visualize sample distribution of those in castes30plus_only_new, coords obtained at https://geocode.localfocus.nl/ and not yet manually corrected them
+#make map of cities in to visualize sample distribution of those in castes30plus_only_new, coords obtained at https://geocode.localfocus.nl/ 
 #now find number of cities in  dataset
 castes30plus_only_new_citylist=sort(unique(castes30plus_only_new$birth4))
 #make freq table as well for point sizing in map later 
